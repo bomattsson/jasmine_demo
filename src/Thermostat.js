@@ -1,9 +1,7 @@
-var Thermostat = function(){};
+function Thermostat(){
+    this.temp = 20;
 
-Thermostat.prototype.temp = function(number) {
-    return (number = 20);
 }
-
 
 
 
